@@ -1,0 +1,196 @@
+/* Fonts_link_Of_Body */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* Fonts_Style_Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+/* Top_Banner */
+.Top-Banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #161616;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    grid-column-gap: 20px;
+    margin-bottom: 100px;
+}
+
+.Top-Banner .Banner-Details {
+    width: 50%;
+}
+
+.Banner-Details {
+    height: 420px;
+    width: 536px;
+    padding-left: 160px;
+    border-radius: 5px;
+    padding-top: 20px;
+
+}
+
+.Banner-Title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.headline {
+    margin-top: 3px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.Banner-Button {
+    padding: 16px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.Banner-img img {
+    margin-top: 2px;
+    width: 87%;
+    padding-top: 50px;
+    margin-bottom: 2px;
+}
+
+/* ---------
+Middle_Page 
+----------
+*/
+.midle-portion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 40px;
+    padding-bottom: 70px;
+}
+
+.side-Bar {
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 40px;
+    width: 280px;
+    height: 300px;
+    margin-left: 100px;
+
+}
+
+.side-Bar button {
+    padding: 5px 40px;
+    border-radius: 5px;
+    margin: 5px 5px;
+    font-size: 26px;
+    font-weight: 500;
+    border: none;
+}
+
+.Normal-Button {
+    color: black;
+}
+
+.Blog-Button {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+/* Box-Making */
+.Boxs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    width: 60%;
+}
+
+.Box {
+    border: 4px solid grey;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.Box:hover {
+    cursor: pointer;
+    border: 2px solid grey;
+}
+
+.Box-info button {
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
+
+.Box-info p {
+    color: #161616;
+    padding-left: 10px;
+}
+
+.Box-icon {
+    color: #161616;
+    padding-left: 18px;
+    margin-right: 10px;
+}
+
+.fa-clock {
+    color: black;
+
+}
+
+/* Footer-Line */
+footer {
+    background-color: black;
+    padding: 50px;
+}
+
+footer h1 {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+footer:hover {
+    border: 3px solid rgb(14, 144, 251);
+}
+
+hr:hover {
+    border: 2px solid rgb(15, 154, 209);
+}
+
+.overall {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+
+.footer-icon {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+/*------- Media_Quaries -------*/
+/* Mobile_Devices */
+@media only screen and (max-width:688px) {
+    .Top-Banner {
+        width: 100%;
+    }
+
+    .Banner-Details,.Banner-img {
+        grid-template-columns: repeat(1, 1fr);
+    } 
+
+}
